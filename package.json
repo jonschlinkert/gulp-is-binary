@@ -1,0 +1,62 @@
+{
+  "name": "gulp-is-binary",
+  "description": "Adds an `.isBinary()` function to the `file` object, similar to `file.isNull()` and `file.isStream()`.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/gulp-is-binary",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/gulp-is-binary",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/gulp-is-binary/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "isbinaryfile": "^3.0.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^3.0.0",
+    "vinyl": "^1.2.0"
+  },
+  "keywords": [
+    "binary",
+    "is-binary",
+    "gulp",
+    "gulpplugin",
+    "is",
+    "plugin"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
+  }
+}
